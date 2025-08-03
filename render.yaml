@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: malnutrition-api
+    env: docker
+    plan: starter
+    region: oregon
+    dockerfilePath: Dockerfile.backend
+    autoDeploy: true
+    envVars:
+      - key: MODEL_PATH
+        value: models/malnutrition_model.tf
+      - key: PORT
+        value: 8000
