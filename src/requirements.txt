@@ -1,0 +1,24 @@
+# Core ML and Data Science packages
+tensorflow
+h5py
+numpy
+pandas
+matplotlib
+seaborn
+opencv-python-headless
+pillow
+scikit-learn
+
+# FastAPI and Web API packages
+fastapi
+uvicorn[standard]
+pydantic
+aiofiles
+python-magic
+python-multipart
+
+# System monitoring
+psutil
+
+# Date/time utilities  
+python-dateutil
